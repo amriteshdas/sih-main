@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SARVANAM</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'primary': '#22c55e', // green-500
+              'primary-dark': '#16a34a', // green-600
+              'secondary': '#64748b', // slate-500
+              
+              // Light theme
+              'background': '#f1f5f9', // slate-100
+              'card': '#ffffff',
+              'text-primary': '#1e293b', // slate-800
+              'text-secondary': '#475569', // slate-600
+              'border': '#e2e8f0', // slate-200
+
+              // Dark theme
+              'dark-background': '#0f172a', // slate-900
+              'dark-card': '#1e293b', // slate-800
+              'dark-text-primary': '#f1f5f9', // slate-100
+              'dark-text-secondary': '#94a3b8', // slate-400
+              'dark-border': '#334155', // slate-700
+            },
+            keyframes: {
+                slideInRight: {
+                    'from': { transform: 'translateX(100%)', opacity: '0' },
+                    'to': { transform: 'translateX(0)', opacity: '1' },
+                },
+                fadeOut: {
+                    'from': { opacity: '1' },
+                    'to': { opacity: '0' },
+                }
+            },
+            animation: {
+                slideInRight: 'slideInRight 0.5s ease-out forwards',
+                fadeOut: 'fadeOut 0.5s ease-in forwards',
+            }
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.17.0",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "recharts": "https://aistudiocdn.com/recharts@^3.1.2",
+    "locales/": "./locales/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-background dark:bg-dark-background">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

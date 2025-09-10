@@ -1,0 +1,9 @@
+{
+  "name": "SARVANAM",
+  "description": "An AI-powered platform for modern agriculture, fusing spectral imaging and IoT sensor data with predictive AI models to provide farmers with early pest/disease detection, soil condition monitoring, and actionable insights through an intuitive dashboard and an expert chatbot.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation",
+    "microphone"
+  ]
+}

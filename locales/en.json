@@ -1,0 +1,700 @@
+
+{
+    "login": {
+        "title": "SARVANAM",
+        "tagline": "Your AI Partner in Precision Agriculture",
+        "emailLabel": "Email or Mobile",
+        "emailPlaceholder": "you@example.com",
+        "passwordLabel": "Password",
+        "confirmPasswordLabel": "Confirm Password",
+        "passwordPlaceholder": "••••••••",
+        "locationLabel": "Your Location",
+        "locationDetecting": "Detecting location...",
+        "locationError": "Please enable location services in your browser.",
+        "locationCouldNotGet": "Could not get location",
+        "createAccountButton": "Create Account",
+        "signInButton": "Sign In",
+        "toggleToSignIn": "Already have an account? Sign In",
+        "toggleToSignUp": "Don't have an account? Create one",
+        "languageLabel": "Language",
+        "locationPermissionDenied": "Location access was denied. Please enable it in your browser settings to sign up.",
+        "locationPositionUnavailable": "We couldn't determine your location. Please check your device's location services.",
+        "locationTimeout": "Getting your location timed out. Please check your connection and try again."
+    },
+    "pageTitles": {
+        "home": "Dashboard",
+        "subscription": "Subscription Plans",
+        "settings": "Settings",
+        "deviceSetup": "Device Setup Guide",
+        "deviceManagement": "Device Management",
+        "spectralAnalysis": "Spectral Analysis",
+        "cropAdvisor": "Crop Advisor",
+        "marketPrices": "Market Prices",
+        "community": "Community & Learning",
+        "profile": "Farmer Profile"
+    },
+    "header": {
+        "subscription": "Subscription",
+        "settings": "Settings",
+        "logout": "Logout",
+        "notifications": {
+            "title": "Notifications",
+            "none": "No new notifications.",
+            "viewAllOnDashboard": "View All on Dashboard",
+            "viewAll": "View All"
+        },
+        "menu": {
+            "subscription": "Subscription",
+            "settings": "Settings",
+            "logout": "Logout",
+            "profile": "Profile"
+        }
+    },
+    "nav": {
+        "basic": "Basic",
+        "pro": "Pro",
+        "basicDashboard": "Basic Dashboard",
+        "proDashboard": "Pro Dashboard"
+    },
+    "dashboard": {
+        "greeting": "Hello {{name}} 👋, smart advice is ready for your fields!",
+        "weather": {
+            "title": "Weather Snapshot",
+            "humidity": "Humidity",
+            "wind": "Wind",
+            "detectingLocation": "Detecting Location...",
+            "locationUnavailable": "Location Unavailable",
+            "forecastTitle": "3-Day Forecast",
+            "days": {
+                "mon": "Mon",
+                "tue": "Tue",
+                "wed": "Wed"
+            }
+        },
+        "sensors": {
+            "title": "Live Sensor Readings",
+            "dataSource": "Data from connected IoT Device",
+            "soilMoisture": "Soil Moisture",
+            "temperature": "Temperature (°C)",
+            "airHumidity": "Air Humidity",
+            "leafWetness": "Leaf Wetness (%)",
+            "nitrogen": "Nitrogen",
+            "phosphorus": "Phosphorus",
+            "potassium": "Potassium",
+            "sunlightHours": "Sunlight (h/day)",
+            "soilType": "Soil Type",
+            "ph": "pH Level",
+            "fertility": "Fertility",
+            "fertilityLevels": {
+                "Low": "Low",
+                "Medium": "Medium",
+                "High": "High"
+            },
+            "connectPrompt": "Connect your IoT device to see live sensor data here.",
+            "connectButton": "Connect a Device"
+        },
+        "monitoring": {
+            "title": "Live Farm Monitoring",
+            "noCameras": {
+                "title": "No Cameras Connected",
+                "description": "Connect a camera to get a live video feed of your farm.",
+                "button": "Manage Cameras"
+            },
+            "liveFeed": "LIVE: {{cameraName}}",
+            "camera": "Camera"
+        },
+        "alerts": {
+            "title": "Critical Alerts",
+            "acknowledge": "Acknowledge",
+            "acknowledgedTitle": "Acknowledged Alerts",
+            "noActiveAlerts": "No active alerts."
+        },
+        "riskMap": {
+            "title": "Farm Risk Map",
+            "zone": "Zone",
+            "emptyState": "No risk data available. Connect a device to generate the map."
+        },
+        "nutrients": {
+            "title": "Soil Nutrient Levels (NPK)"
+        },
+        "historicalTrends": {
+            "title": "Historical Sensor Trends (30 Days)",
+            "moisture": "Moisture (%)",
+            "humidity": "Humidity (%)"
+        },
+        "calendar": {
+            "title": "Personalized Farming Calendar",
+            "titleFor": "Farming Calendar for {{crop}}",
+            "editTitle": "Editing Calendar for {{crop}}",
+            "selectCropPrompt": "Select a crop from the suggestions above to see a personalized calendar.",
+            "useAdvisorPrompt": "Use the Crop Advisor to get a recommendation and create a new plan.",
+            "today": "Today",
+            "tomorrow": "Tomorrow",
+            "days": "In {{count}} days",
+            "saveButton": "Save to Calendar",
+            "savedButton": "Saved",
+            "updateButton": "Update Calendar",
+            "cancelButton": "Cancel",
+            "editButton": "Edit",
+            "deleteButtonAriaLabel": "Delete calendar for {{crop}}",
+            "saveConfirmation": "Calendar saved successfully!",
+            "savedCalendarsTitle": "Your Farming Plans",
+            "noSavedCalendars": "You have no saved plans yet.",
+            "deleteConfirm": {
+                "title": "Confirm Deletion",
+                "message": "Are you sure you want to delete the calendar for {{crop}}? This action cannot be undone.",
+                "confirmButton": "Delete",
+                "cancelButton": "Cancel"
+            }
+        },
+        "suggestions": {
+            "crops": {
+                "lettuce": "Lettuce",
+                "broccoli": "Broccoli",
+                "carrots": "Carrots",
+                "spinach": "Spinach",
+                "tomatoes": "Tomatoes",
+                "peppers": "Peppers",
+                "wheat": "Wheat",
+                "rice": "Rice",
+                "maize": "Maize",
+                "rye": "Rye",
+                "potato": "Potato",
+                "onion": "Onion",
+                "cabbage": "Cabbage",
+                "peas": "Peas"
+            }
+        },
+        "proPlaceholder": {
+            "title": "Unlock Pro Features",
+            "description": "Connect your custom IoT sensors and cameras to activate the Pro dashboard. This will unlock real-time data, advanced analytics, and predictive insights.",
+            "mainButton": "Go to Device Setup Guide"
+        },
+        "cropAdvisorCard": {
+            "title": "Personalized Crop Advisor",
+            "description": "Answer a few questions to get a crop recommendation tailored to your farm's conditions.",
+            "button": "Start Advisor"
+        },
+        "history": {
+            "title": "Farm History",
+            "lastCrop": "Last Crop Grown",
+            "recoveryStatus": "Soil Recovery Status"
+        },
+        "sustainability": {
+            "title": "Sustainability Tracker",
+            "waterSaved": "Water Saved",
+            "carbonReduced": "Carbon Reduced",
+            "soilImproved": "Soil Health"
+        },
+        "marketWidget": {
+            "title": "Market Prices",
+            "viewAll": "View All Market Data"
+        },
+        "communityWidget": {
+            "title": "Community & Learning",
+            "videos": "Featured Videos",
+            "stories": "Success Stories",
+            "viewAll": "Go to Community"
+        }
+    },
+    "cropAdvisor": {
+        "title": "Personalized Crop Advisor",
+        "form": {
+            "description": "Provide some details about your farm to receive a personalized crop recommendation.",
+            "pastCropsLabel": "Which crops have you grown here recently?",
+            "farmSizeLabel": "What is your farming capacity?",
+            "farmSizePlaceholder": "e.g., 2.5 acres",
+            "button": "Analyze & Suggest",
+            "error": "Please enter a valid farm size."
+        },
+        "loading": {
+            "title": "Finding the perfect crop for you...",
+            "message1": "Analyzing your farm details...",
+            "message2": "Cross-referencing with local weather data...",
+            "message3": "Evaluating soil type and nutrient levels...",
+            "message4": "Generating personalized recommendation..."
+        },
+        "result": {
+            "title": "Your Recommended Crop is {{crop}}!",
+            "reasonsTitle": "Why We Recommend This",
+            "multipleTitle": "Here Are Your Top Recommendations",
+            "multipleDescription": "Based on your input and our data, these crops are your best fit. Select one to view a detailed plan.",
+            "yield": "Expected Yield",
+            "yieldUnit": "tons/acre",
+            "profit": "Profit Margin",
+            "profitLevels": {
+                "Low": "Low",
+                "Medium": "Medium",
+                "High": "High"
+            },
+            "sustainability": "Sustainability Score",
+            "reasons": {
+                "short": {
+                    "reasonWeather": "Suits current weather",
+                    "reasonSoil": "Compatible with soil type",
+                    "reasonRotation": "Good for crop rotation",
+                    "reasonScale": "Scales to your farm size"
+                }
+            }
+        },
+        "details": {
+            "title": "Plan for {{crop}}",
+            "detailsTitle": "Crop Details",
+            "calendarTitle": "Personalized Calendar",
+            "dayLabel": "Day {{day}}",
+            "savePlanButton": "Save to Farming Plans",
+            "planSavedButton": "Plan Saved!"
+        },
+        "actions": {
+            "startOverButton": "Start Over",
+            "backToDashboardButton": "Back to Dashboard",
+            "viewDetailsButton": "View Details & Plan",
+            "backToResultsButton": "Back to Recommendations"
+        },
+        "compare": {
+            "button": "Compare",
+            "title": "Side-by-Side Comparison",
+            "metric": "Metric"
+        }
+    },
+    "spectral": {
+        "title": "Spectral Disease Detection",
+        "cropImageAlt": "Crop",
+        "zoomAriaLabel": "Zoom control",
+        "cameraError": "An unexpected error occurred while accessing the camera. Please try again.",
+        "cameraPermissionDenied": "Camera access was denied. Please grant permission in your browser settings to use this feature.",
+        "cameraNotFound": "No camera was found on this device. Please connect a camera and try again.",
+        "cameraInUse": "The camera is already in use by another application. Please close it and try again.",
+        "cameraSecureConnection": "Camera access requires a secure (HTTPS) connection.",
+        "analysisError": "Failed to analyze the image due to an unknown error. Please try again.",
+        "analysisEmptyResponse": "Analysis could not be completed. The image may be blurry, unclear, or not contain a plant.",
+        "analysisServiceUnavailable": "The AI analysis service is currently busy or unavailable. Please try again in a few moments.",
+        "analysisNetworkError": "A network error occurred. Please check your internet connection and try again.",
+        "startCamera": "Capture",
+        "capture": "Take Picture",
+        "stopCamera": "Stop Camera",
+        "switchCamera": "Switch Camera",
+        "uploadFile": "Upload File",
+        "analyzing": "Analyzing...",
+        "loading": {
+            "processing": "Processing Image...",
+            "preprocessing": "Pre-processing image...",
+            "queryingAI": "Querying AI Model..."
+        },
+        "analyzeCrop": "Analyze Crop",
+        "reportTitle": "AI Analysis Report",
+        "reportPlaceholder": "Analysis results will appear here.",
+        "filterReport": {
+            "title": "Filter Report by Issue",
+            "all": "Show All"
+        },
+        "ailmentSpotlight": {
+            "title": "Issue Spotlight",
+            "description": "Description",
+            "lifecycle": "Lifecycle / Progression",
+            "prevention": "Prevention & Management",
+            "closeAriaLabel": "Close"
+        },
+        "liveAnalysis": {
+            "title": "Live Analysis (Pro)",
+            "description": "Get real-time feedback from your camera.",
+            "toggleAriaLabel": "Toggle Live Analysis Mode",
+            "ndviLabel": "Simulated NDVI",
+            "ndviTooltip": "Normalized Difference Vegetation Index (Simulated). Higher values (closer to 1) generally indicate healthier or denser vegetation."
+        },
+        "historical": {
+            "title": "Historical Spectral Trends",
+            "description": "Compare this analysis with past scans to track health trends over time.",
+            "button": "Feature Coming Soon",
+            "chartTitle": "Health Score Trend",
+            "ndviChartTitle": "Live NDVI Trend",
+            "yAxisLabel": "Score",
+            "tooltipLabel": "Health Score",
+            "ndviTooltipLabel": "NDVI",
+            "daysAgo": "{{count}}d ago",
+            "today": "Today"
+        },
+        "imageToggle": {
+            "original": "Original",
+            "processed": "Processed",
+            "description": "AI analysis is performed on the processed image."
+        },
+        "proMode": {
+            "title": "Camera Required for Pro Analysis",
+            "description": "Please connect a camera in Device Management to use Spectral Analysis in Pro mode."
+        },
+        "proFeature": {
+            "title": "Pro Tip: Continuous Monitoring",
+            "description": "You can set up external cameras for continuous, automated monitoring and alerts. Visit Device Setup for more info."
+        },
+        "proCameraLabel": "Using Camera: {{cameraName}}"
+    },
+    "chatbot": {
+        "title": "SARVANAM AI Assistant",
+        "open": "Open AI Chat",
+        "close": "Close Chat",
+        "initialMessage": "Hello! I'm the SARVANAM AI Assistant. How can I help you with your farm today? Ask me for step-by-step guides!",
+        "errorMessage": "Sorry, I encountered an error. Please try again.",
+        "inputPlaceholder": "Ask about your crops...",
+        "quickTips": {
+            "title": "Quick Questions",
+            "tip1": "What do yellow leaves mean?",
+            "tip2": "How to identify pest damage?",
+            "tip3": "Step-by-step guide for irrigation",
+            "tip4": "Best watering practices"
+        }
+    },
+    "subscription": {
+        "mostPopular": "MOST POPULAR",
+        "free": "Free",
+        "perMonth": "/month",
+        "contactUs": "Contact Us",
+        "currentPlan": "Current Plan",
+        "tiers": {
+            "basic": {
+                "name": "Basic",
+                "feature1": "Daily Dashboard Overview",
+                "feature2": "Manual Spectral Analysis (5/month)",
+                "feature3": "Standard AI Chatbot Access",
+                "feature4": "Community Support"
+            },
+            "pro": {
+                "name": "Pro",
+                "feature1": "Everything in Basic",
+                "feature2": "Real-time Alerts",
+                "feature3": "Unlimited Spectral Analysis",
+                "feature4": "Advanced AI Trend Prediction",
+                "feature5": "Priority Email Support",
+                "cta": "Upgrade to Pro"
+            },
+            "enterprise": {
+                "name": "Enterprise",
+                "feature1": "Everything in Pro",
+                "feature2": "Multi-farm Management",
+                "feature3": "Custom API & Integrations",
+                "feature4": "Dedicated Account Manager",
+                "feature5": "On-site Training",
+                "cta": "Contact Sales"
+            }
+        }
+    },
+    "settings": {
+        "account": {
+            "title": "User Account",
+            "proPlan": "Pro Plan",
+            "viewProfile": "View / Edit Profile"
+        },
+        "appearance": {
+            "title": "Appearance",
+            "description": "Switch between light and dark mode.",
+            "toggleAriaLabel": "Switch to {{theme}} mode"
+        },
+        "language": {
+            "title": "Language",
+            "description": "Choose the application's display language."
+        },
+        "viewMode": {
+            "title": "Dashboard View Mode",
+            "description": "Switch between the simple Basic view and the data-rich Pro view.",
+            "basic": "Basic",
+            "pro": "Pro",
+            "proDescription": "Pro view is best experienced with a connected device. Manage your simulated devices in the Device Management section."
+        },
+        "subscription": {
+            "title": "Subscription Status",
+            "statusActive": "Pro Plan Active",
+            "statusInactive": "Basic Plan Active",
+            "description": "Simulate a Pro subscription for testing purposes.",
+            "toggleAriaLabel": "Toggle Pro subscription status",
+            "upgradeNote": "To see official plans,",
+            "upgradeLink": "visit the Subscription page."
+        },
+        "deviceIntegration": {
+            "title": "Device Integration",
+            "description": "Connect your own IoT sensors and cameras to unlock real-time data and advanced features.",
+            "button": "View Guide",
+            "setupGuide": {
+                "title": "Setup Instructions",
+                "description": "View guides for connecting hardware."
+            }
+        },
+        "actions": {
+            "title": "Account Actions",
+            "logoutDescription": "Log out of your account.",
+            "logoutButton": "Logout"
+        }
+    },
+    "deviceManagementPage": {
+        "backButton": "Back to Dashboard",
+        "addButton": "Add",
+        "deleteButton": "Delete Device",
+        "sensors": {
+          "title": "IoT Sensors",
+          "addTitle": "Add New Sensor",
+          "placeholder": "New sensor name..."
+        },
+        "cameras": {
+          "title": "Cameras",
+          "addTitle": "Add New Camera",
+          "placeholder": "New camera name..."
+        },
+        "deleteConfirm": {
+            "title": "Confirm Deletion",
+            "message": "Are you sure you want to delete '{{deviceName}}'? This action cannot be undone.",
+            "confirmButton": "Delete",
+            "cancelButton": "Cancel"
+        },
+        "upgradePrompt": {
+            "title": "Pro Feature",
+            "sensors": "Add more than one sensor with the Pro plan.",
+            "cameras": "Connect cameras and unlock live monitoring with the Pro plan.",
+            "button": "Upgrade to Pro"
+        }
+    },
+    "deviceSetup": {
+        "proCallout": {
+            "title": "Pro Feature: Custom Hardware Integration",
+            "description": "Unlock the full power of SARVANAM by connecting your own hardware. Integrating your IoT sensors and cameras enables real-time monitoring, hyper-local alerts, and the most accurate AI insights.",
+            "button": "Upgrade to Pro"
+        }
+    },
+    "ailments": {
+        "powderyMildew": {
+          "name": "Powdery Mildew",
+          "description": "A fungal disease affecting a wide range of plants, characterized by white, powdery spots on leaves and stems.",
+          "lifecycle": "Spores are spread by wind and germinate on plant surfaces in high humidity and moderate temperatures. The fungus overwinters in plant debris.",
+          "prevention": "Ensure good air circulation, avoid overhead watering, and apply fungicides or neem oil at the first sign of infection. Remove and destroy infected plant parts."
+        },
+        "aphids": {
+          "name": "Aphids",
+          "description": "Small, sap-sucking insects that cluster on new growth, causing stunted or distorted leaves and producing a sticky substance called honeydew.",
+          "lifecycle": "Adults give birth to live nymphs, allowing for rapid population growth. They can be winged or wingless, spreading quickly between plants.",
+          "prevention": "Encourage natural predators like ladybugs. Use strong water sprays to dislodge them or apply insecticidal soap. Keep plants healthy to resist infestation."
+        },
+        "nitrogenDeficiency": {
+          "name": "Nitrogen Deficiency",
+          "description": "A common nutrient deficiency where the entire plant appears pale green, with older, lower leaves turning yellow and dying off.",
+          "lifecycle": "This is a condition, not a disease. It progresses from lower to upper leaves as the plant moves mobile nitrogen to support new growth.",
+          "prevention": "Apply nitrogen-rich fertilizers like blood meal, fish emulsion, or a balanced N-P-K fertilizer. Incorporate compost or well-rotted manure into the soil."
+        },
+        "fusariumWilt": {
+          "name": "Fusarium Wilt",
+          "description": "A soil-borne fungal disease that infects plant roots and blocks the water-conducting tissues, causing wilting, yellowing (often on one side), and eventual death.",
+          "lifecycle": "The fungus can survive in the soil for years. It enters through roots, especially in warm, moist soil conditions. It is spread by contaminated soil, water, and tools.",
+          "prevention": "Use disease-resistant crop varieties. Practice crop rotation with non-susceptible plants. Improve soil drainage and avoid overwatering. Sanitize tools between uses."
+        }
+    },
+    "tooltips": {
+        "userMenu": "Open user menu",
+        "editCalendar": "Edit calendar",
+        "deleteCalendar": "Delete calendar",
+        "backToOverview": "Back to overview",
+        "close": "Close",
+        "switchCamera": "Switch camera",
+        "openChat": "Open AI assistant",
+        "closeChat": "Close chat",
+        "sendMessage": "Send message",
+        "logout": "Log out of your account",
+        "viewDeviceGuide": "View device setup guide",
+        "showPassword": "Show password",
+        "hidePassword": "Hide password",
+        "notifications": "Show notifications",
+        "deviceStatusConnected": "{{sensorCount}} sensors, {{cameraCount}} cameras connected. Manage devices.",
+        "deviceStatusDisconnected": "No devices connected. Manage devices.",
+        "showBasicView": "Show Basic View",
+        "showProView": "Show Pro View",
+        "proRequired": "Pro subscription required",
+        "deviceConnected": "Connected",
+        "deviceDisconnected": "Disconnected",
+        "spectralAnalysis": "Spectral Analysis",
+        "previousCamera": "Previous Camera",
+        "nextCamera": "Next Camera",
+        "viewPlan": "View plan details",
+        "marketPrices": "Market Prices",
+        "community": "Community & Learning",
+        "askByVoice": "Ask a question with your voice",
+        "backToDashboard": "Back to Dashboard"
+    },
+    "cropDetails": {
+        "sections": {
+            "description": "Description",
+            "idealConditions": "Ideal Conditions",
+            "commonPests": "Common Pests & Diseases",
+            "wateringNeeds": "Watering Needs"
+        },
+        "wheat": {
+            "description": "A cereal grain cultivated for its seed, a staple food worldwide.",
+            "idealConditions": "Cool, dry weather during growing season. Prefers well-drained loam or clay loam soils.",
+            "commonPests": "Aphids, armyworms, rusts, powdery mildew.",
+            "wateringNeeds": "Requires consistent moisture, especially during the seedling and grain-filling stages. Drought-sensitive."
+        },
+        "rice": {
+            "description": "A staple food for over half of the world's population, primarily grown in flooded paddies.",
+            "idealConditions": "Hot and humid climate. Requires heavy clay or clay loam soil that can hold water.",
+            "commonPests": "Stem borer, leafhopper, bacterial blight, blast.",
+            "wateringNeeds": "Requires large amounts of water; fields are typically flooded for a significant portion of the growing season."
+        },
+        "maize": {
+            "description": "Also known as corn, a tall annual cereal grass that yields large grains, or kernels, set in rows on a cob.",
+            "idealConditions": "Warm, sunny weather. Requires well-drained, fertile soil, with a good supply of nutrients.",
+            "commonPests": "Corn earworm, aphids, stalk borer, smut.",
+            "wateringNeeds": "Needs consistent moisture, particularly during the pollination and kernel development stages."
+        },
+        "rye": {
+            "description": "A hardy cereal grain, often grown in cooler climates or poorer soils where other cereals fail.",
+            "idealConditions": "Tolerant of cold and less fertile, sandy, or acidic soils. Prefers cool conditions.",
+            "commonPests": "Generally resistant to pests and diseases, but can be affected by ergot.",
+            "wateringNeeds": "More drought-tolerant than wheat, but consistent water improves yield."
+        },
+        "potato": {
+            "description": "A starchy tuber from the nightshade family, a major global food crop.",
+            "idealConditions": "Cool weather with well-drained, loose, sandy loam soil. Full sun is preferred.",
+            "commonPests": "Colorado potato beetle, aphids, late blight, scab.",
+            "wateringNeeds": "Requires consistent moisture. Uneven watering can lead to hollow or cracked tubers."
+        },
+        "onion": {
+            "description": "A vegetable known for its pungent bulb, used in cooking worldwide.",
+            "idealConditions": "Full sun and fertile, well-drained soil. Early growth prefers cool weather, bulb formation needs warmth.",
+            "commonPests": "Onion maggots, thrips, downy mildew.",
+            "wateringNeeds": "Needs consistent moisture, but reduce watering as the tops begin to yellow and fall over to allow bulbs to cure."
+        },
+        "cabbage": {
+            "description": "A leafy green, red, or white biennial plant grown as an annual vegetable for its dense-leaved heads.",
+            "idealConditions": "Cool weather crop. Prefers fertile, well-drained soil with plenty of organic matter.",
+            "commonPests": "Cabbageworms, aphids, flea beetles, clubroot.",
+            "wateringNeeds": "Requires consistent moisture to prevent heads from splitting. Avoid waterlogging."
+        },
+        "peas": {
+            "description": "A cool-season legume crop, grown for its sweet, edible seeds.",
+            "idealConditions": "Cool weather. Prefers well-drained soil and appreciates support for climbing varieties.",
+            "commonPests": "Aphids, pea weevil, powdery mildew.",
+            "wateringNeeds": "Consistent moisture is important, especially during flowering and pod development."
+        },
+        "tomatoes": {
+            "description": "A widely cultivated plant for its edible berries. A key ingredient in many cuisines.",
+            "idealConditions": "Warm, sunny conditions (6-8 hours of sun). Fertile, well-drained soil rich in organic matter.",
+            "commonPests": "Hornworms, aphids, whiteflies, blight, blossom-end rot.",
+            "wateringNeeds": "Consistent, deep watering is crucial. Avoid overhead watering to prevent fungal diseases."
+        },
+        "lettuce": {
+            "description": "A leafy annual plant of the daisy family, most often grown as a leaf vegetable.",
+            "idealConditions": "Cool weather (15-18°C), partial to full sun. Prefers nutrient-rich, well-drained, loamy soil.",
+            "commonPests": "Aphids, slugs, snails. Susceptible to downy mildew.",
+            "wateringNeeds": "Requires consistent moisture. Water shallowly and frequently to keep the soil evenly moist."
+        },
+        "carrots": {
+            "description": "A root vegetable, usually orange in color, though purple, black, red, white, and yellow cultivars exist.",
+            "idealConditions": "Cool weather (16-21°C), full sun. Prefers loose, sandy, well-drained, stone-free soil for straight root development.",
+            "commonPests": "Carrot rust fly, aphids. Susceptible to leaf blight.",
+            "wateringNeeds": "Keep soil consistently moist to prevent roots from splitting. Avoid waterlogging."
+        },
+        "peppers": {
+            "description": "The fruit of plants from the genus Capsicum. Can range from sweet to intensely hot.",
+            "idealConditions": "Warm weather (24-30°C), full sun. Prefers well-drained sandy or loamy soil.",
+            "commonPests": "Aphids, pepper weevils. Susceptible to bacterial spot and mosaic virus.",
+            "wateringNeeds": "Water deeply but infrequently. Allow soil to dry slightly between waterings."
+        },
+        "broccoli": {
+            "description": "An edible green plant in the cabbage family whose large flowering head, stalk, and small associated leaves are eaten as a vegetable.",
+            "idealConditions": "Cool weather (18-22°C), full sun. Prefers slightly acidic, well-drained soil.",
+            "commonPests": "Cabbage worms, aphids. Susceptible to clubroot and downy mildew.",
+            "wateringNeeds": "Requires regular, deep watering. About 1 to 1.5 inches per week."
+        },
+        "spinach": {
+            "description": "A leafy green flowering plant native to central and western Asia.",
+            "idealConditions": "Cool weather (15-20°C), partial shade. Prefers nitrogen-rich, well-drained loamy soil.",
+            "commonPests": "Aphids, leaf miners, slugs. Susceptible to downy mildew.",
+            "wateringNeeds": "Keep soil consistently moist. Avoid waterlogged conditions."
+        }
+    },
+    "calendarTasks": {
+        "prepareSoil": "Prepare and till the soil, adding compost.",
+        "planting": "Plant seeds or seedlings at the correct depth and spacing.",
+        "fertilizing": "Apply a balanced fertilizer during the growth stage.",
+        "pestScouting": "Regularly scout for common pests and diseases.",
+        "harvesting": "Harvest the crop at peak maturity.",
+        "preparePaddy": "Prepare and flood the paddy fields.",
+        "transplanting": "Transplant rice seedlings into the prepared paddy.",
+        "waterManagement": "Maintain appropriate water levels in the paddy."
+    },
+    "marketPrices": {
+        "livePrices": {
+            "title": "Live Mandi Prices"
+        },
+        "trends": {
+            "title": "Predictive Price Trends",
+            "description": "Forecasted prices for the next 2 weeks (simulated data)."
+        },
+        "alerts": {
+            "title": "Market Alerts",
+            "alert1": {
+                "title": "Onion Price Alert",
+                "description": "Onion prices are expected to rise next week due to weather disruptions. Consider holding your harvest if possible."
+            }
+        },
+        "nearestMarkets": {
+            "title": "Nearest Market Centers",
+            "description": "Price differences compared to your local mandi."
+        }
+    },
+    "community": {
+        "groups": {
+            "title": "Farmer Discussion Groups",
+            "group1": "Tamil Nadu Organic Farmers",
+            "group2": "Coimbatore Vegetable Growers",
+            "group3": "Pest Management India",
+            "members": "members",
+            "joinButton": "Join"
+        },
+        "videos": {
+            "title": "Video Tutorials",
+            "video1": {
+                "title": "How to Use Drip Irrigation Effectively"
+            },
+            "video2": {
+                "title": "Identifying Common Tomato Diseases"
+            },
+            "video3": {
+                "title": "Organic Pest Control Methods"
+            }
+        },
+        "successStories": {
+            "title": "Success Stories",
+            "story1": {
+                "title": "Increased Yield by 20%",
+                "quote": "Using the soil data from SARVANAM, I adjusted my fertilizer strategy and saw a 20% increase in my tomato yield this season!",
+                "author": "R. Kumar, Pollachi"
+            },
+            "story2": {
+                "title": "Saved Crop from Blight",
+                "quote": "The spectral analysis detected early-stage blight on my potatoes, and the recommended treatment saved my entire crop from ruin.",
+                "author": "Anitha S., Mettupalayam"
+            }
+        },
+        "govtSchemes": {
+            "title": "Government Schemes & Subsidies",
+            "description": "Relevant schemes based on your location.",
+            "scheme1": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+            "scheme2": "National Mission for Sustainable Agriculture (NMSA)"
+        }
+    },
+    "profile": {
+        "contactInfo": {
+            "title": "Contact Information",
+            "email": "Email Address",
+            "phone": "Phone Number"
+        },
+        "farmDetails": {
+            "title": "Farm Details",
+            "farmSize": "Farm Size",
+            "primaryCrops": "Primary Crops",
+            "soilType": "Predominant Soil Type",
+            "irrigation": "Irrigation Method"
+        },
+        "reminders": {
+            "title": "Notifications & Reminders",
+            "description": "Manage your alerts for irrigation schedules, fertilizer usage, and pest prevention.",
+            "note": "This feature is coming soon!"
+        }
+    }
+}
